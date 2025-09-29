@@ -1,0 +1,16 @@
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+numReplicas = 1
+sleepApplication = false
+restartPolicyType = "ON_FAILURE"
+
+[env]
+OXYLABS_PROXY_HOST = "pr.oxylabs.io"
+OXYLABS_PROXY_PORT = "7777"
+OXYLABS_PROXY_USERNAME = "snowflake2_CgJtr"
+OXYLABS_PROXY_PASSWORD = "Fighter34+++"
+PORT = "8000"
+DATABASE_URL = "postgresql://neondb_owner:npg_BUpE0JYr5geo@ep-morning-hall-ad96rqg8-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require"
